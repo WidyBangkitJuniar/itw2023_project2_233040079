@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Widy Bangkit Juniar</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;800&display=swap" rel="stylesheet">
+
+    <!-- Css -->
+    <link rel="stylesheet" href="./Css/style.css">
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/c7fe0a8bea.js" crossorigin="anonymous"></script>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <nav>
+                        <a class="name">Bangkit.</a>
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#portofolio">Portofolio</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                </div>
+            </nav>
+            <div class="header-text">
+                <p>Selamat Datang di Website Saya!</p>
+                <h1>Hola, Saya <span>Widy Bangkit</span><br> Juniar Dari Kuningan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./Img/user.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p></p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('pengalaman')">Pengalaman</p>
+                        <p class="tab-links" onclick="opentab('pendidikan')">Pendidikan</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="pengalaman">
+                        <ul>
+                            <li><span>2021 - April 2023</span><br>Kuda Kuningan</li>
+                            <li><span>2019 - 2021</span><br>Recovery</li>
+                            <li><span>2017 - 2018</span><br>Turangga Sakti Kuningan</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="pendidikan">
+                        <ul>
+                            <li><span>Sekolah Dasar</span><br>SD Negeri 1 Ciniru</li>
+                            <li><span>Sekolah Menengah Pertama</span><br>SMP Negeri 1 Ciniru</li>
+                            <li><span>Sekolah Menengah Atas</span><br>SMA Negeri 1 Ciniru</li>
+                            <li><span>Jenjang Pendidikan Sarjana</span><br>Universitas Pasundan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portofolio -->
+    <div id="portofolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./Img/project1.png" alt="">
+                    <div class="layer">
+                        <h3>Lightbox</h3>
+                        <p>Saya sudah pernah membuat Lightbox Foto, meskipun saya membuatnya dengan melihat tutorial di
+                            youtube Pak Sandhika Galih</p>
+                        <a
+                            href="file:///C:/Users/hp/OneDrive/Desktop/itw/itw2023_233040079/latihan/latihan5/T5a233040079.html"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./Img/project2.png" alt="">
+                    <div class="layer">
+                        <h3>Merch Shop</h3>
+                        <p>Saya sudah pernah membuat Merch Shop, meskipun saya membuatnya dengan melihat tutorial di
+                            youtube Pak Sandhika Galih</p>
+                        <a
+                            href="file:///C:/Users/hp/OneDrive/Desktop/itw/itw2023_233040079/latihan/latihan7/index.html"><i
+                                class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- Gallery -->
+    <div id="gallery">
+        <div class="container">
+            <h1 class="sub-tittle">My Gallery</h1>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-1.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-2.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-3.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-4.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-5.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-6.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-7.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-8.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-9.jpg);"></div>
+                    <div class="swiper-slide" style="background-image: url(Img/gallery-10.jpg);"></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Hubungi Saya</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> widibangkitjuniar@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 082124943674</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/widybangkitjuniar/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/widy_bangkit"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://web.facebook.com/Widybangkit11/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://github.com/WidyBangkitJuniar/itw2023_233040079"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="./Img/my-cv.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Nama" placeholder="Nama" required>
+                        <input type="email" name="Email" placeholder="Email" required>
+                        <textarea name="Pesan" rows="6" placeholder="Pesan"></textarea>
+                        <button type="submit" class="btn btn2">Kirim</button>
+                    </form>
+                    <span id="psn"></span>
+                </div>
+            </div>
+        </div>
+        <div class="created">
+            <p>© Widy Bangkit Juniar</p>
+        </div>
+    </div>
+
+    <script>
+
+        // Tab
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        // Menu
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+    // Gallery
+    <script src="https://unpkg.com/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
+
+            direction: "horizontal",
+            loop: true,
+
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            },
+        });
+    </script>
+
+
+    <script>
+        // Contact Form
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbzEeDJhAZTYNQzsIKK3o3mSjv4AygNML5V6noUKNz8tNLLhl-vF7CImJ3OZxoJE6mrJHA/exec";
+        const form = document.forms["submit-to-google-sheet"];
+        const psn = document.getElementById("psn");
+
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => {
+                    psn.innerHTML = "Terimakasih! pesan anda telah dikirim :)";
+                    setTimeout(function () {
+                        psn.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
+
+</body>
+
+</html>
