@@ -87,7 +87,7 @@ h1 {
   transition: 0.3s;
 }
 
-.apple {
+.rasakan {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(../Img/nikmati.jpg) no-repeat;
   background-size: cover;
@@ -95,7 +95,7 @@ h1 {
   width: 100%;
 }
 
-.apple h1 {
+.rasakan h1 {
   font-family: "Lobster", sans-serif;
 }
 
@@ -150,10 +150,28 @@ h1 {
 
   .main h1 {
     font-size: 44px;
-    margin-top: 10rem;
+    margin-top: 14rem;
+    text-align: left;
   }
 
-  .apple {
+  .main a {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .text-kualitas h5 {
+    text-align: center;
+  }
+
+  .rasakan {
     background-position: 36%;
+  }
+
+  .text-rasakan {
+    margin-top: 12rem;
+  }
+
+  .col-name {
+    margin: 3px 0;
   }
 }
